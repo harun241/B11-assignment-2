@@ -124,10 +124,12 @@
     display: flex;
     justify-content: center;
     gap: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
 
 }
 .primary{
-    width: 300px;
+   
     background: linear-gradient(to bottom,skyblue, white);
     text-align: center;
     border-radius: 10px;
@@ -144,7 +146,7 @@
 
 .secondary{
     
-    width: 300px;
+  
     background: linear-gradient(to bottom, rgb(241, 186, 84),white);
     text-align: center;
     border-radius: 10px;
@@ -159,7 +161,7 @@
 }
 
 .hsecondary{
-    width: 300px;
+   
     background: linear-gradient(to bottom,rgb(216, 80, 216),white);
     text-align: center;
     border-radius: 10px;
