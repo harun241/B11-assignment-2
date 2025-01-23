@@ -174,12 +174,12 @@
         
 }
 
-.arrow img{
+/* .arrow img{
     width:50px;
-    height: 20px;
+    height: 20px; 
     
     
-}
+} */
 .readmore1{
     color: rgb(29, 168, 223);
 }
@@ -290,7 +290,7 @@ footer{
     display: flex;
     justify-content: space-between;
     background-color: skyblue;
-    max-width: 100%;
+    
 }
 
 @media (max-width: 576px) {
@@ -315,7 +315,7 @@ footer{
 footer{
     display: flex;
     justify-content: space-between;
-    width:100%;
+    
     flex-direction: column;
 }
 .menu{
