@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .home{
+    color: coral;
+  }
+  .about{
+    color: rgb(64, 183, 231);
+  }
+  .facilities{
+    color: rgb(244, 108, 244);
+  }
+  .admission{
+    color: rgb(168, 42, 231);
+  }
+  
+  .display-flex{
+    display: flex;
+  }
+  
+
+.nav-bar{
+  justify-content: space-around;
+} 
+
+.nav-link{
+    text-decoration: none;
+    margin: 30px;
+   
+}
+
+.nav-item {
+    
+    list-style: none;  
+}
+
+
+.btn-1{
+    background-color: orange;
+    color:white;
+    width:80px;
+    height:20px;
+    margin: 20px;
+    border:none;
+    border-radius: 10px ;
+
+}
+.btn-2{
+    background-color: black;
+    color:white;
+    width:80px;
+    height:20px;
+    border:none;
+    border-radius: 10px ;
+
+}
+/* banner section */
+
+
+.empower{
+  color: orange;
+}
+.towards{
+  color: rgb(41, 191, 251);
+}
+.paragraph{
+  font-weight: lighter;
+  font-size: smaller;
+}
+
+
+.banner-item{
+  text-align: center;
+  display: flex;
+  margin: 24px;
+  padding: 20px;
+}
+
+
+
+
+@media (max-width: 480px) {
+  label {
+    font-size: 12px;
+  }
+
+  input,
+  textarea {
+    padding: 8px;
+  }
+
+  button {
+    padding: 12px;
+  }
+
+  .school{
+    visibility: hidden;
+  }
+  .nav-link {
+    visibility: hidden;
+  }
+  .btn-1{
+    visibility: hidden;
+  }
+  .banner-item{
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+/* curriculum section */
