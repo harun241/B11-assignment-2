@@ -178,8 +178,13 @@
 
 .arrow img{
     width:100px;
-    margin-top: 24px;
     
+    
+}
+.arrow{
+  margin: auto;
+  padding: 20px;
+  text-align: center;
 }
 .readmore1{
     color: rgb(29, 168, 223);
