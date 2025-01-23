@@ -60,6 +60,10 @@
     border-radius: 10px ;
 
 }
+
+.view{
+    justify-content: center;
+}
 /* banner section */
 
 
@@ -113,8 +117,211 @@
     flex-direction: column-reverse;
     
 }
+}
 
 /* card section */
-.card{display flex
+.card{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 
 }
+.primary{
+    width: 300px;
+    background: linear-gradient(to bottom,skyblue, white);
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.primary:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+   
+}
+
+.secondary{
+    
+    width: 300px;
+    background: linear-gradient(to bottom, rgb(241, 186, 84),white);
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+.secondary:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.hsecondary{
+    width: 300px;
+    background: linear-gradient(to bottom,rgb(216, 80, 216),white);
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hsecondary:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
+        
+}
+
+.arrow img{
+    width:50px;
+    height: 20px;
+    
+    
+}
+.readmore1{
+    color: rgb(29, 168, 223);
+}
+.readmore2{
+ color: rgb(237, 164, 28);
+}
+.readmore3{
+    color: rgb(126, 8, 126);
+}
+
+@media (max-width: 576px) {
+    label {
+      font-size: 12px;
+    }
+  
+    input,
+    textarea {
+      padding: 8px;
+    }
+
+    .card{
+        display: grid;
+        grid-template-columns: 1,1;
+        align-items: center;
+    }
+}
+
+.stories{
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.our-stories{
+    display: flex;
+   
+}
+.gridimg{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+    width: 50%;
+}
+.story-1{
+    width: 50%;
+    background-color: #f7f4f4;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease
+   
+}
+
+
+.story-2{
+    width: 300px;
+    background-color: #f7f4f4;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    
+}
+
+
+.story-3{
+    width: 300px;
+    background-color: #f7f4f4;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+
+.story-4{
+
+    width: 300px;
+    background-color: #f7f4f4;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+
+.story-5{
+    width: 300px;
+    background-color: #f7f4f4;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+.about-link{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: skyblue;
+    max-width: 100%;
+}
+
+@media (max-width: 576px) {
+    label {
+      font-size: 12px;
+    }
+  
+    
+
+    .story-1{
+        visibility: hidden;
+        position: absolute;
+    }
+    .gridimg{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+
+      
+    }
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    flex-direction: column;
+}
+.menu{
+    display: flex;
+    justify-content: ;
+}
+
+
+
